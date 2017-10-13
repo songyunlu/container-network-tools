@@ -1,8 +1,9 @@
 # container-network-tools
 
-Dockerfile for building images that contains most of networking tools for container network troubleshooting.
+Dockerfile for building the image that contains most of the networking tools for container network troubleshooting.
 
-Following packages are included
+Following packages are included.
+
 * curl 
 * wget 
 * iputils-ping 
@@ -17,4 +18,4 @@ Following packages are included
 * hping3 
 * netcat
 
-The container starts in a infinte loop, so please run the container in the detach mode via `docker run --rm -d gn00023040/container-network-tools`.
+The container starts in an infinite loop, so please run the container in the detach mode via `docker run --rm -d gn00023040/container-network-tools`.
