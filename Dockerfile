@@ -13,5 +13,6 @@ RUN apt-get update \
        tcpdump \
        nmap \
        hping3 \
-       netcat
+       netcat \
+       traceroute
 CMD sh -c 'while true; do sleep 3600; done'
