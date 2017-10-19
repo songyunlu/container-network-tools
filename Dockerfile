@@ -14,5 +14,6 @@ RUN apt-get update \
        nmap \
        hping3 \
        netcat \
-       traceroute
+       traceroute \
+       telnet
 CMD sh -c 'while true; do sleep 3600; done'
